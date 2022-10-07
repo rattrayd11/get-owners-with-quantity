@@ -17,7 +17,7 @@ const sdk = new ThirdwebSDK('ethereum');
 
 const contractAddress = '0x650244F4949F14AA49BE93D144125c7139E04552'; // Replace with your contract address
 
-const signatureDrop = await sdk.getSignatureDrop(contractAddress);
+const signatureDrop = sdk.getSignatureDrop(contractAddress);
 
 const getBalances = async () => {
   const addresses = (
