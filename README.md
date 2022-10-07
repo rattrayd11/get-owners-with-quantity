@@ -4,7 +4,7 @@ Get a JSON with the owners and the quantity of each owned item.
 
 ## Usage
 
-- Replace contractAddress, network and tokenId with your own
+- Replace contractAddress and network with your own
 - Run with `npx ts-node index.ts`
 
 
